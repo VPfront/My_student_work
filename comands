@@ -1,0 +1,18 @@
+gulp commands
+install gulp
+npm install --global gulp-cli
+добавяем gulp в наш projekt появляетя package.json в котором хранится вся инфа о проэкте
+npm init  
+для устабовки  gulp в наш проэкт появляетя package-lock.json и папка node_modules
+npm install gulp -D
+впапке с проэкта надо создать gulpfile.js или скоприроват; тут да конкретно в папку проэкта (копируй)
+npm install --save-dev gulp
+для установки browser gulp системы
+npm install browser-sync
+npm install browser-gulp
+
+gulp browser-sync
+
+
+
+const browserSync = require('browser-sync').create();
